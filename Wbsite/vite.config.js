@@ -5,8 +5,8 @@ export default defineConfig({
     rolldownOptions: {
       input: {
         index: 'index.html',
-        good: 'GOOD.html',
-        bad: 'BAD.html',
+        good: 'src/html/GOOD.html',
+        bad: 'src/html/BAD.html',
       },
     },
   },

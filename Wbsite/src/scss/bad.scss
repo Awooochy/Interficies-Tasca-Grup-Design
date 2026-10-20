@@ -1,11 +1,56 @@
+
 //variables
 
+$body-bg:    #141414;
+$body-color: #580101;
+
+$body-tertiary-bg: #ffffff;
+
+$primary: #9ee69e;
+
+$success: #f8f8f8;
+
+$navbar-light-color:        #cdff8f;
+$navbar-light-hover-color:  #eddddd;
+$navbar-light-active-color: #f3e6e6;
+$navbar-light-brand-color:  #f3eaf0;
+
+$input-bg:                #0e0d0d;
+$input-color:             #370000;
+$input-placeholder-color: #373737;
+$input-border-color:      #7aff89;
+
+$card-bg:           #8fd8ff;
+$card-color:        #b5e6ff;
+$card-title-color:  #c9eeff;
+$card-border-color: #9fdcff;
 
 
 //importa bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 
-
 //modificacio de clases
+.btn-primary {
+  --bs-btn-color: #e6ffe6;
+  --bs-btn-hover-color: #e6ffe6;
+  --bs-btn-active-color: #e6ffe6;
+    font-size: 14px;
+}
 
+
+h1{
+    font-size: 14px;
+}
+
+h2{
+    font-size: 14px;
+}
+
+h3{
+    font-size: 14px;
+}
+
+.navbar-brand {
+  font-weight: 1;
+}
